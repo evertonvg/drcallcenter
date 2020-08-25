@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTPS} !=on    
+    RewriteRule ^ https://www.drcallcenter.com.br/ [L,R=301]
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
